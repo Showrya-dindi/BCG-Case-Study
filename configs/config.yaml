@@ -1,0 +1,33 @@
+INPUT_FILES:
+  Charges: 
+    Path: data/Charges_use.csv
+    Format: csv
+  Damages: 
+    Path: data/Damages_use.csv
+    Format: csv
+  Endorse: 
+    Path: data/Endorse_use.csv
+    Format: csv
+  Primary_Person: 
+    Path: data/Primary_Person_use.csv
+    Format: csv
+  Units: 
+    Path: data/Units_use.csv
+    Format: csv
+  Restrict: 
+    Path: data/Restrict_use.csv
+    Format: csv
+
+OUTPUT_PATHS:
+  Analysis_1: output/Analysis_1
+  Analysis_2: output/Analysis_2
+  Analysis_3: output/Analysis_3
+  Analysis_4: output/Analysis_4
+  Analysis_5: output/Analysis_5
+  Analysis_6: output/Analysis_6
+  Analysis_7: output/Analysis_7
+  Analysis_8: output/Analysis_8
+  Analysis_9: output/Analysis_9
+  Analysis_10: output/Analysis_10
+
+
