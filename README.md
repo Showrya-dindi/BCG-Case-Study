@@ -12,31 +12,33 @@
 
 ## Running the Analysis
 
-Tp run the application follow the below steps
+To run the application follow the below steps:
 
-0. Go to the Project Directory: 
+0. Install OpenJDK and add a system variable `JAVA_HOME` with the path to your OpenJDK installation
+
+1. Go to the Project Directory: 
 `cd BCG-CASE-STUDY`
 
-1. Create a Virtual Environment:
+2. Create a Virtual Environment:
 `python3 -m venv venv`
 
-2. Activate the Virtual Environment:
-On Windows:
+3. Activate the Virtual Environment:
+* On Windows:
 `venv\Scripts\activate`
 
-On macOS and Linux:
+* On macOS and Linux:
 `source venv/bin/activate`
 
-3. Install the Dependencies:
+4. Install the Dependencies:
 `pip install -r requirements.txt`
 
-4. Install the Custom Package (src)
+5. Install the Custom Package (src)
 `python3 -m pip install -e .`
 
-4. Run the analysis:
+6. Run the analysis:
 `spark-submit scripts/run_analysis.py configs/config.yaml`
 
-5. Deactivate the Virtual Environment
+7. Deactivate the Virtual Environment
 `deactivate`
 
 ## Note
