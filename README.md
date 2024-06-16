@@ -32,7 +32,7 @@ To run the application follow the below steps:
 4. Install the Dependencies:
 `pip install -r requirements.txt`
 
-5. Install the Custom Package (src)
+5. Install the Custom Package (src):
 `python3 -m pip install -e .`
 
 6. Run the analysis:
