@@ -38,7 +38,7 @@ To run the application follow the below steps:
 6. Run the analysis:
 `spark-submit scripts/run_analysis.py configs/config.yaml`
 
-7. Deactivate the Virtual Environment
+7. Deactivate the Virtual Environment:
 `deactivate`
 
 ## Note
